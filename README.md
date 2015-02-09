@@ -15,6 +15,11 @@
     git clone https://github.com/hukl/Smyck-Color-Scheme.git
     mv smyck.vim cd ~/.vim/colors/smyck.vim
 
+## Install ctrlp
+
+    cd ~/.vim
+    git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+
 ## Create .vimrc
 
     git clone https://github.com/amirothman/pop-cherry-vim.git

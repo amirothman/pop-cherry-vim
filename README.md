@@ -4,7 +4,11 @@
      
     mkdir -p ~/.vim/autoload ~/.vim/bundle
 
+### Use either curl
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+### or use wget
+    wget https://tpo.pe/pathogen.vim
+    mv pathogen.vim ~/.vim/autoload
 
 ## install NERDTree
     
@@ -16,8 +20,7 @@
     git clone https://github.com/hukl/Smyck-Color-Scheme.git
     mkdir -p ~/.vim/colors
     mv smyck.vim cd ~/.vim/colors/smyck.vim
-## Note: use sudo to speed up deletion because Smyck was a git repo 
-    sudo rm -r Smyck-Color-Scheme
+    rm -rf Smyck-Color-Scheme
 
 ## Install ctrlp
 

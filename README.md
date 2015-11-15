@@ -19,7 +19,7 @@
 
     git clone https://github.com/hukl/Smyck-Color-Scheme.git
     mkdir -p ~/.vim/colors
-    mv smyck.vim cd ~/.vim/colors/smyck.vim
+    mv Smyck-Color-Scheme/smyck.vim ~/.vim/colors/smyck.vim
     rm -rf Smyck-Color-Scheme
 
 ## Install ctrlp

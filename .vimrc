@@ -1,5 +1,6 @@
 execute pathogen#infect()
 filetype plugin indent on
+set autoindent
 set number
 set expandtab
 set shiftwidth=2

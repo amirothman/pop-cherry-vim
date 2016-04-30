@@ -10,3 +10,4 @@ set background=dark
 " colorscheme smyck
 syntax on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+set mouse=a
